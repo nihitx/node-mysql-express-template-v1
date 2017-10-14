@@ -30,7 +30,7 @@ The repo is using the following tech, I will break them down one by one for ease
 
 
 ### Break down
-> `index.js` 
+> `index.js`
 
 The code below takes care of calling all the database functions to you index.js file.
 ```sh
@@ -55,7 +55,7 @@ The function calls `saveUser` from the `models` and then saves the user, and ret
 If the function fails to register it returns a 400 error to the user.
 If you want to learn more click: [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 ```sh
-/* The function below 
+/* The function below
 app.post('/createUser',(req,res,next)=>{
     saveUser(req.body).then((result)=>{
         return res.header('x-auth', result.token).send({email : result.email});
@@ -118,6 +118,8 @@ saveUser = (userinfo) => new Promise((resolve,reject)=>{
 To get it to the cloud either click the button below to deploy to heroku
 or just manually change the database to get a db in the cloud and push it to the server of your choice ( heroku, aws, digital ocean)
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nihitx/node-mysql-express-template-v1/tree/master)
+
 ### Final
 
 To know more about how to setup a perfect architecture. Read the article below.
@@ -132,4 +134,3 @@ License
 MIT
 
 **Free Software, Hell Yeah!**
-
