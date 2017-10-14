@@ -17,7 +17,7 @@ saveUser = (userinfo) => new Promise((resolve,reject)=>{
     var hash = bcrypt.hashSync(userinfo.password, salt);
 
     userinfo.password = hash;
-    userinfo.token = jwt.sign({Owner : userinfo.Owner},'secretkeyyo');
+    userinfo.token = jwt.sign({Owner : userinfo.Owner},'secretkey');
 
     db.query('INSERT INTO user SET ?',userinfo,function(error,results,fields){
         if(error){
@@ -31,7 +31,7 @@ saveUser = (userinfo) => new Promise((resolve,reject)=>{
 getUserByToken = (token) => new Promise((resolve, reject) => {
     var decoded ;
     try{
-        decoded = jwt.verify(token,'secretkeyyo');
+        decoded = jwt.verify(token,'secretkey');
         resolve(decoded);
     }catch(e){
         reject();
