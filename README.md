@@ -120,6 +120,9 @@ or just manually change the database to get a db in the cloud and push it to the
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nihitx/node-mysql-express-template-v1/tree/master)
 
+> Important , after deploying to Heroku, if you see error, it might be because you don't have a database in heroku, so just go to heroku add:on and get CLEARDB database for free and use the host, user name, password from there and change `db.js` to connect there.
+
+
 ### Final
 
 To know more about how to setup a perfect architecture. Read the article below.
