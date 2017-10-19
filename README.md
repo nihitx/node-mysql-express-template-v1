@@ -1,4 +1,6 @@
-# node-mysql-express-template-v1
+# node-mysql-express-template-v1 
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/f95fe5b7ba693e383e80/maintainability)](https://codeclimate.com/github/nihitx/node-mysql-express-template-v1/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/f95fe5b7ba693e383e80/test_coverage)](https://codeclimate.com/github/nihitx/node-mysql-express-template-v1/test_coverage) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/20ed27a00bca48f08ae0d557d7e85367)](https://www.codacy.com/app/nihitx/node-mysql-express-template-v1?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nihitx/node-mysql-express-template-v1&amp;utm_campaign=Badge_Grade)
 
 Node mysql express template version 1 is a easy to use template, for any start-ups to download and get started with. It can be pushed to a cloud service in a matter of seconds.
 
