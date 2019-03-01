@@ -3,6 +3,6 @@
   "description": "Node mysql express template version 1 is a easy to use template, for any start-ups to download and get started with. It can be pushed to a cloud service in a matter of seconds.
 ",
   "repository": "https://github.com/nihitx/node-mysql-express-template-v1",
-  "logo": "https://rawgit.com/heroku/node-js-sample/master/public/node.svg",
+  "logo": "https://cdn.jsdelivr.net/gh/heroku/node-js-sample@master/public/node.svg",
   "keywords": ["node", "express", "mysql"]
 }
